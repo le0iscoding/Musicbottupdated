@@ -37,7 +37,7 @@ module.exports = {
       .setDescription('Welcome to the Music Bot!\n\n- Here are the available commands:\n\n' +
         '**/play :** Start playing the songs.\n' +
         '**/ping :** check bot latency.\n' +
-        '** And more to come!');
+        '**And more to come!**');
 
       return interaction.reply({ embeds: [embed] });
     } catch (e) {
